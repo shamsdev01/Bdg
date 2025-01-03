@@ -9,7 +9,8 @@ const config = {};
 
 export default config;
 
-module.exports = {
+// Replace module.exports with export default
+export default {
   eslint: {
     ignoreDuringBuilds: true,
   },
