@@ -40,3 +40,11 @@ const config = {
   }
 }
 module.exports = config;
+// .eslintrc.js example
+module.exports = {
+  extends: 'next',
+  rules: {
+    '@next/next/no-img-element': 'off',
+    // Add other necessary rules here
+  },
+};
