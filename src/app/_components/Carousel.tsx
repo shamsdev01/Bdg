@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from "react";
-
+import Image from "next/image"
 import Services from "./Services";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -63,28 +63,28 @@ const Carousel = () => {
 
         {/* Additional Image Slides */}
         <div>
-          <img src="/images/slide1.jpg" alt="Slide 1" className="w-full h-auto" />
+          <Image src="/images/slide1.jpg" alt="Slide 1" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide2.jpg" alt="Slide 2" className="w-full h-auto" />
+          <Image src="/images/slide2.jpg" alt="Slide 2" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide3.jpg" alt="Slide 3" className="w-full h-auto" />
+          <Image src="/images/slide3.jpg" alt="Slide 3" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide4.jpg" alt="Slide 4" className="w-full h-auto" />
+          <Image src="/images/slide4.jpg" alt="Slide 4" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide5.jpg" alt="Slide 5" className="w-full h-auto" />
+          <Image src="/images/slide5.jpg" alt="Slide 5" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide6.jpg" alt="Slide 6" className="w-full h-auto" />
+          <Image src="/images/slide6.jpg" alt="Slide 6" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide7.jpg" alt="Slide 7" className="w-full h-auto" />
+          <Image src="/images/slide7.jpg" alt="Slide 7" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide8.jpg" alt="Slide 8" className="w-full h-auto" />
+          <Image src="/images/slide8.jpg" alt="Slide 8" className="w-full h-auto" />
         </div>
         {/* Add more slides as needed */}
       </Slider>
