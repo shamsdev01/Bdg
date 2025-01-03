@@ -60,7 +60,7 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container">
-      <Slider {...(settings as Settings)}>
+      <Slider {...settings}>
         {/* First Slide: Developmental Themes */}
         <div>
           <Services />
@@ -68,28 +68,28 @@ const Carousel = () => {
 
         {/* Additional Image Slides */}
         <div>
-          <img src="/images/slide 1.jpg" alt="Slide 1" className="w-full h-auto" />
+          <img src="/images/slide1.jpg" alt="Slide 1" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 2.jpg" alt="Slide 2" className="w-full h-auto" />
+          <img src="/images/slide2.jpg" alt="Slide 2" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 3.jpg" alt="Slide 3" className="w-full h-auto" />
+          <img src="/images/slide3.jpg" alt="Slide 3" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 4.jpg" alt="Slide 4" className="w-full h-auto" />
+          <img src="/images/slide4.jpg" alt="Slide 4" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 5.jpg" alt="Slide 5" className="w-full h-auto" />
+          <img src="/images/slide5.jpg" alt="Slide 5" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 6.jpg" alt="Slide 6" className="w-full h-auto" />
+          <img src="/images/slide6.jpg" alt="Slide 6" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 7.jpg" alt="Slide 7" className="w-full h-auto" />
+          <img src="/images/slide7.jpg" alt="Slide 7" className="w-full h-auto" />
         </div>
         <div>
-          <img src="/images/slide 8.jpg" alt="Slide 8" className="w-full h-auto" />
+          <img src="/images/slide8.jpg" alt="Slide 8" className="w-full h-auto" />
         </div>
         {/* Add more slides as needed */}
       </Slider>
