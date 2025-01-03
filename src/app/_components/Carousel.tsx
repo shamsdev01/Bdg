@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import type { Settings } from "react-slick";
+import type { Settings as SlickSettings } from "react-slick";
 
 const Carousel = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -15,12 +15,12 @@ const Carousel = () => {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) { 
+  if (!isMounted) {
     return null; // Prevent rendering on the server
   }
 
   // Explicitly type the settings object
-  const settings: Settings = {
+  const settings: SlickSettings = {
     dots: true,
     infinite: true,
     speed: 500,
