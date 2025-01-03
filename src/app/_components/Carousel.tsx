@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
+
 import Services from "./Services";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
