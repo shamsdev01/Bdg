@@ -5,7 +5,7 @@ import Services from "./Services";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-// Import the type definition for Settings
+
 import type { Settings } from "react-slick";
 
 const Carousel = () => {
