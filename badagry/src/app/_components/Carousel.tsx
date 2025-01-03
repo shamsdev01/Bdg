@@ -4,10 +4,9 @@ import dynamic from "next/dynamic";
 import Services from "./Services";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Settings } from "react-slick";
-
-// Dynamically import Slider to prevent SSR issues
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
+import Slider from "react-slick";
+// Import the type definition for Settings
+import type { Settings } from "react-slick";
 
 const Carousel = () => {
   const [isMounted, setIsMounted] = useState(false);
