@@ -15,7 +15,7 @@ const Carousel = () => {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) {
+  if (!isMounted) { 
     return null; // Prevent rendering on the server
   }
 
